@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+.boardContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#board{
+    display: flex;
+    flex-direction: column;
+}
+.cellContainer{
+    display: flex;
+}
+.cell{
+    width: 60px;
+    height: 60px;
+    border : 1px solid black;
+}
